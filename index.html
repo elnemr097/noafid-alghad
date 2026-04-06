@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>نوافذ الغد للخدمات اللوجستية</title>
+    <meta name="description"
+        content="نوافذ الغد شركة رائدة في مجال الخدمات اللوجستية وتوصيل طلبات المطاعم والمواد الغذائية في جميع أنحاء المملكة.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800;900&display=swap"
+        rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Top Contact Strip -->
+    <div class="top-contact-strip">
+        <div class="container container-strip"
+            style="display: flex; justify-content: center; align-items: center; gap: 20px;">
+            <span><i class="fas fa-building"></i> شركة نوافذ الغد للخدمات اللوجستية</span>
+            <span class="strip-separator">|</span>
+            <span><i class="fas fa-map-marker-alt"></i> الرياض، المملكة العربية السعودية</span>
+            <span class="strip-separator">|</span>
+            <span dir="ltr">+966 50 000 0000 <i class="fas fa-phone-alt"></i></span>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="navbar" id="navbar">
+        <div class="container">
+            <a href="#" class="logo">
+                <img src="assets/Gemini_Generated_Image_641rvd641rvd641r.png" alt="نوافذ الغد للخدمات اللوجستية"
+                    class="site-logo">
+            </a>
+            <nav class="nav-links">
+                <a href="#about">من نحن</a>
+                <a href="#sectors">قطاعات الأعمال</a>
+                <a href="#fleet">أسطولنا</a>
+                <a href="#why-us">لماذا نوافذ الغد؟</a>
+                <a href="#clients">شركاؤنا</a>
+                <a href="#contact-page">تواصل معنا</a>
+            </nav>
+            <div class="header-actions">
+                <button class="lang-switch" id="lang-switch" title="Switch Language"><i class="fas fa-globe"></i> <span
+                        id="lang-text">English</span></button>
+                <a href="#quote" class="btn-primary">طلب عرض سعر</a>
+                <button class="mobile-toggle" id="mobile-menu-btn"><i class="fas fa-bars"></i></button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section Placeholder -->
+        <section id="hero-placeholder" class="hero-section">
+            <div class="container hero-split">
+                <div class="hero-content text-right">
+                    <div class="status-badge reveal-top">
+                        <span class="status-dot"></span> الشبكة تعمل بكفاءة
+                    </div>
+                    <h1 class="reveal-top">شركة<br><span>نوافذالغد للخدمات الوجستيةالمتكاملة</span></h1>
+                    <p class="reveal-top" style="transition-delay: 0.1s;">نوفر أسطولاً مجهزاً وحلولاً رقمية لتوصيل سريع
+                        وآمن عبر مناطق المملكة العربية السعودية. مشغل موثوق لتطبيقات مثل جاهز وهنقرستيشن. (اسحب الكرة
+                        للتفاعل)</p>
+
+                    <div class="hero-metrics reveal-top" style="transition-delay: 0.2s;">
+                        <div class="metric">
+                            <span class="metric-val">100+</span>
+                            <span class="metric-label">مندوب جاهز</span>
+                        </div>
+                        <div class="metric-divider"></div>
+                        <div class="metric">
+                            <span class="metric-val">5</span>
+                            <span class="metric-label">تطبيقات معتمدة</span>
+                        </div>
+                        <div class="metric-divider"></div>
+                        <div class="metric">
+                            <span class="metric-val">99.9%</span>
+                            <span class="metric-label">سرعة وموثوقية</span>
+                        </div>
+                    </div>
+
+                    <div class="hero-buttons reveal-top" style="transition-delay: 0.3s; margin-top: 30px;">
+                        <a href="https://wa.me/966500000000" class="btn-whatsapp-hero" target="_blank"><i
+                                class="fab fa-whatsapp"></i> تواصل عبر واتساب</a>
+                        <a href="tel:+966500000000" class="btn-call-hero"><i class="fas fa-phone-alt"></i> اتصل بنا
+                            الآن</a>
+                    </div>
+                </div>
+
+                <div class="hero-globe-container reveal-left" style="transition-delay: 0.4s;">
+                    <canvas id="hero-globe" class="globe-canvas"></canvas>
+                </div>
+            </div>
+            <div class="hero-bg-shapes">
+                <div class="shape shape-1"></div>
+                <div class="shape shape-2"></div>
+            </div>
+        </section>
+
+        <!-- Stats Section -->
+        <section class="stats-section">
+            <div class="container stats-grid">
+                <div class="stat-card reveal">
+                    <i class="fas fa-motorcycle stat-icon"></i>
+                    <h3 class="counter" data-target="100">0</h3>
+                    <span class="plus">+</span>
+                    <p>مندوب توصيل</p>
+                </div>
+                <div class="stat-card reveal" style="transition-delay: 0.1s;">
+                    <i class="fas fa-map-marker-alt stat-icon"></i>
+                    <h3 class="counter" data-target="13">0</h3>
+                    <p>منطقة بالمملكة</p>
+                </div>
+                <div class="stat-card reveal" style="transition-delay: 0.2s;">
+                    <i class="fas fa-utensils stat-icon"></i>
+                    <h3 class="counter" data-target="5">0</h3>
+                    <p>تطبيقات مطاعم</p>
+                </div>
+                <div class="stat-card reveal" style="transition-delay: 0.3s;">
+                    <i class="fas fa-truck-fast stat-icon"></i>
+                    <h3 class="counter" data-target="24">0</h3>
+                    <p>ساعة عمل</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- About/Services Section -->
+        <section id="about" class="about-section pt-100">
+            <div class="container">
+                <div class="section-header reveal">
+                    <h2>نواكب تطلعاتكم في التوصيل</h2>
+                    <div class="divider"></div>
+                    <p>نحن في مؤسسة "نوافذ الغد" متخصصون في تقديم أسرع وأفضل الخدمات اللوجستية وتوصيل طلبات المطاعم
+                        والمواد الغذائية بعناية فائقة واحترافية لا مثيل لها.</p>
+                </div>
+                <div class="services-grid">
+                    <div class="service-card reveal">
+                        <div class="icon-wrapper"><i class="fas fa-hamburger"></i></div>
+                        <h3>تشغيل تطبيقات المطاعم</h3>
+                        <p>نعمل بصفتنا مشغلاً متميزاً وموثوقاً لتطبيقات المطاعم الكبرى، للحرص على وصول الوجبات بصورة
+                            سريعة وطازجة.</p>
+                    </div>
+                    <div class="service-card reveal" style="transition-delay: 0.1s;">
+                        <div class="icon-wrapper"><i class="fas fa-box-open"></i></div>
+                        <h3>نقل المواد الغذائية</h3>
+                        <p>توصيل آمن وسريع للمواد الغذائية بما يتماشى مع أعلى معايير الحفظ والسلامة والنقل اللوجستي
+                            المتخصص.</p>
+                    </div>
+                    <div class="service-card reveal" style="transition-delay: 0.2s;">
+                        <div class="icon-wrapper"><i class="fas fa-globe-asia"></i></div>
+                        <h3>تغطية شاملة</h3>
+                        <p>نفخر بشبكة خدماتنا التي تغطي جميع مدن ومناطق المملكة العربية السعودية بفضل فريقنا ومندوبينا
+                            المتميزين.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Business Sectors Section -->
+        <section id="sectors" class="sectors-section pt-100 pb-100">
+            <div class="container">
+                <div class="section-header reveal">
+                    <h2>قطاعات الأعمال</h2>
+                    <div class="divider"></div>
+                    <p>نقدم حلولاً لوجستية مصممة خصيصاً لمختلف القطاعات لضمان كفاءة التوريد والتسليم</p>
+                </div>
+                <div class="sectors-grid">
+                    <div class="sector-card reveal">
+                        <img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80"
+                            alt="المطاعم و المقاهي">
+                        <div class="sector-content">
+                            <h3>المطاعم والمقاهي</h3>
+                            <p>تشغيل وإدارة توصيل الطلبات الخاصة بالتطبيقات الغذائية.</p>
+                        </div>
+                    </div>
+                    <div class="sector-card reveal" style="transition-delay: 0.1s;">
+                        <img src="https://images.unsplash.com/photo-1604719312566-8912e9227c6a?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80"
+                            alt="المتاجر الإلكترونية">
+                        <div class="sector-content">
+                            <h3>المتاجر الإلكترونية</h3>
+                            <p>خدمات التوصيل السريع للميل الأخير (Last-Mile Delivery) لمختلف الطرود.</p>
+                        </div>
+                    </div>
+                    <div class="sector-card reveal" style="transition-delay: 0.2s;">
+                        <img src="https://images.unsplash.com/photo-1542838132-92c53300491e?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80"
+                            alt="التموينات والأغذية">
+                        <div class="sector-content">
+                            <h3>التموينات والسوبرماركت</h3>
+                            <p>توزيع ونقل الأغذية الجافة والمبردة باستخدام شاحنات مهيأة.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Fleet Section (Redesigned) -->
+        <section id="fleet" class="fleet-section pt-100 pb-100">
+            <div class="container">
+                <div class="section-header reveal">
+                    <h2>أسطول مركبات متكامل ومجهز</h2>
+                    <div class="divider"></div>
+                    <p>لضمان سرعة التوصيل ومرونة الخدمات، نمتلك أسطولاً متنوعاً يغطي كافة الاحتياجات التجارية</p>
+                </div>
+                <div class="fleet-cards">
+                    <div class="fleet-card reveal">
+                        <div class="fleet-icon"><i class="fas fa-car-side"></i></div>
+                        <h3>سيارات سيدان</h3>
+                        <p>مثالية لخدمات التوصيل السريعة اليومية، وطلبات المطاعم الساخنة والمتاجر ضمن المدينة بمرونة
+                            تامة وسرعة قياسية.</p>
+                    </div>
+                    <div class="fleet-card reveal" style="transition-delay: 0.1s;">
+                        <div class="fleet-icon"><i class="fas fa-shuttle-van"></i></div>
+                        <h3>مركبات فان</h3>
+                        <p>تستخدم لنقل الطلبيات المتوسطة والطرود الكبيرة، مصممة لاستيعاب العديد من الشحنات وحمايتها من
+                            العوامل الجوية.</p>
+                    </div>
+                    <div class="fleet-card reveal" style="transition-delay: 0.2s;">
+                        <div class="fleet-icon"><i class="fas fa-truck-moving"></i></div>
+                        <h3>شاحنات داينا</h3>
+                        <p>خصيصاً لعمليات التوزيع والنقل التجاري للكميات الكبيرة من المستودعات لقطاعات التجزئة والمطاعم
+                            بشكل يومي موثوق.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Why Us Section -->
+        <section id="why-us" class="why-us-section pt-100 pb-100">
+            <div class="container flex-container">
+                <div class="why-text">
+                    <div class="section-header reveal-left" style="text-align: right; margin-bottom: 30px;">
+                        <h2>لماذا نوافذ الغد؟</h2>
+                        <div class="divider align-right"></div>
+                        <p>نعمل باحترافية وشغف لنكون شريكك اللوجستي الأدق والأسرع في المملكة.</p>
+                    </div>
+                    <div class="features-list">
+                        <div class="feature-item reveal-left">
+                            <div class="feature-icon"><i class="fas fa-stopwatch"></i></div>
+                            <div>
+                                <h4>سرعة استجابة وتوصيل</h4>
+                                <p>نهتم بالمواعيد الدقيقة ونلتزم بأوقات التسليم المتفق عليها لتوفير تجربة ممتازة للعملاء
+                                    النهائين.</p>
+                            </div>
+                        </div>
+                        <div class="feature-item reveal-left" style="transition-delay: 0.1s;">
+                            <div class="feature-icon"><i class="fas fa-shield-alt"></i></div>
+                            <div>
+                                <h4>أمان وموثوقية</h4>
+                                <p>ضمان سلامة الطلبات والمواد الغذائية من نقطة الإستلام حتى نقطة التسليم بأعلى معايير
+                                    الحماية.</p>
+                            </div>
+                        </div>
+                        <div class="feature-item reveal-left" style="transition-delay: 0.2s;">
+                            <div class="feature-icon"><i class="fas fa-headset"></i></div>
+                            <div>
+                                <h4>دعم فني مستمر</h4>
+                                <p>فريق دعم فني متواجد على مدار الساعة للرد على استفساراتكم وحل المشكلات بشكل فوري.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="why-image reveal">
+                    <div class="image-wrapper">
+                        <!-- Placeholder for an image or illustration (CSS customized) -->
+                        <div class="why-illustration">
+                            <div class="pulse-circle">
+                                <i class="fas fa-check-circle"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Clients Section -->
+        <section id="clients" class="clients-section pt-100 pb-100">
+            <div class="container">
+                <div class="section-header reveal">
+                    <h2>شركاء النجاح</h2>
+                    <div class="divider"></div>
+                    <p>نفخر بتشغيل وتسليم الطلبات لأبرز منصات وتطبيقات التوصيل الرائدة في المملكة</p>
+                </div>
+                <div class="clients-grid">
+                    <div class="client-logo reveal">
+                        <img src="assets/CLIENT_1_NAME.png" alt="كيتا" class="client-img">
+                        <p>كيتا</p>
+                    </div>
+                    <div class="client-logo reveal" style="transition-delay: 0.1s;">
+                        <img src="assets/CLIENT_2_NAME.png" alt="هنقرستيشن" class="client-img">
+                        <p>هنقرستيشن</p>
+                    </div>
+                    <div class="client-logo reveal" style="transition-delay: 0.2s;">
+                        <img src="assets/CLIENT_3_NAME.jfif" alt="جاهز" class="client-img">
+                        <p>جاهز</p>
+                    </div>
+                    <div class="client-logo reveal" style="transition-delay: 0.3s;">
+                        <img src="assets/CLIENT_4_NAME.png" alt="تويو" class="client-img">
+                        <p>تويو</p>
+                    </div>
+                    <div class="client-logo reveal" style="transition-delay: 0.4s;">
+                        <img src="assets/CLIENT_5_NAME.png" alt="ذا شيفز" class="client-img">
+                        <p>ذا شيفز</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Page / Form Section -->
+        <section id="contact-page" class="contact-section pt-100 pb-100" style="background: var(--white);">
+            <div class="container">
+                <div class="contact-wrapper">
+                    <div class="contact-info reveal">
+                        <h2>تواصل معنا</h2>
+                        <div class="divider align-right"></div>
+                        <p>فريقنا مستعد لتلبية طلباتكم والإجابة على أي استفسارات تتعلق بخدماتنا اللوجستية وتشغيل
+                            التطبيقات.</p>
+
+                        <div class="info-items mt-30">
+                            <div class="info-item">
+                                <div><i class="fas fa-map-marker-alt"></i></div>
+                                <div>
+                                    <h5>العنوان</h5>
+                                    <p>المقر الرئيسي، الرياض، المملكة العربية السعودية</p>
+                                </div>
+                            </div>
+                            <div class="info-item">
+                                <div><i class="fas fa-envelope"></i></div>
+                                <div>
+                                    <h5>البريد الإلكتروني</h5>
+                                    <p>info@nawafidhalghad.com</p>
+                                </div>
+                            </div>
+                            <div class="info-item">
+                                <div><i class="fas fa-phone-alt"></i></div>
+                                <div>
+                                    <h5>رقم الهاتف</h5>
+                                    <p>+966 50 000 0000</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-form-wrapper reveal" style="transition-delay: 0.2s;" id="quote">
+                        <form class="contact-form">
+                            <h3>طلب عرض سعر / رسالة جديدة</h3>
+                            <div class="form-group">
+                                <label for="name">الاسم</label>
+                                <input type="text" id="name" placeholder="أدخل اسمك الكريم" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">رقم الجوال</label>
+                                <input type="tel" id="phone" placeholder="مثال: +966 5xxxxxx" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="service">الخدمة المطلوبة</label>
+                                <select id="service">
+                                    <option>تشغيل توصيل الطلبات</option>
+                                    <option>توصيل طرود التجارة الإلكترونية</option>
+                                    <option>نقل بالشاحنات المبردة والجافة</option>
+                                    <option>استفسار آخر</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="msg">معلومات إضافية عن الطلب</label>
+                                <textarea id="msg" rows="4" placeholder="كيف يمكننا مساعدتك؟" required></textarea>
+                            </div>
+                            <button type="submit" class="btn-primary w-100">إرسال الطلب</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/966500000000" class="floating-whatsapp" target="_blank" rel="noopener noreferrer"
+        title="تواصل عبر واتساب">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Footer -->
+    <footer id="footer">
+        <div class="container footer-grid">
+
+            <div class="footer-col align-center-col">
+                <img src="assets/Gemini_Generated_Image_641rvd641rvd641r.png" alt="نوافذ الغد للخدمات اللوجستية"
+                    class="site-logo footer-logo-img">
+                <p>شريكك الاستراتيجي في النقل المبرد والجاف، وحلول توصيل الميل الأخير وتطبيقات المطاعم في المملكة
+                    العربية السعودية.</p>
+                <div class="social-links mt-30">
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-col text-center-col">
+                <h3>روابط سريعة</h3>
+                <ul class="footer-links">
+                    <li><a href="#hero-placeholder">الرئيسية</a></li>
+                    <li><a href="#about">من نحن</a></li>
+                    <li><a href="#sectors">خدماتنا</a></li>
+                    <li><a href="#fleet">الأسطول</a></li>
+                    <li><a href="#why-us">لماذا نحن</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col text-center-col">
+                <h3>تواصل معنا</h3>
+                <ul class="contact-ul">
+                    <li><i class="fas fa-map-marker-alt"></i> الرياض، المملكة العربية السعودية</li>
+                    <li dir="ltr" style="text-align: right; justify-content: flex-end;">+966 50 000 0000 <i
+                            class="fas fa-phone-alt"></i></li>
+                    <li dir="ltr" style="text-align: right; justify-content: flex-end;">info@nawafidhalghad.com <i
+                            class="fas fa-envelope"></i></li>
+                </ul>
+                <a href="https://wa.me/966500000000" class="btn-whatsapp-footer" target="_blank"><i
+                        class="fab fa-whatsapp"></i> تواصل عبر واتساب</a>
+            </div>
+
+            <div class="footer-col">
+                <div class="footer-map-container">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3625.32360565538!2d46.72620781500355!3d24.681655084138133!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e2f03890d489399%3A0xba974d1c98e79fd5!2sRiyadh%2C%20Saudi%20Arabia!5e0!3m2!1sen!2sae!4v1680000000000!5m2!1sen!2sae"
+                        width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+            </div>
+
+        </div>
+        <div class="copyright">
+            <p>&copy; 2026 جميع الحقوق محفوظة - شركة نوافذ الغد للخدمات اللوجستية</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
